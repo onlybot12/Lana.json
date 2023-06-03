@@ -1,6 +1,54 @@
-[
-"https://sociabuzz.com/proaccount/transaction",
 
-"https://danukiding.my.id/",
+<? 
 
-]
+    $urls = array(
+
+    array(
+
+
+
+        'http://cur.lv/xjxu',
+
+        'http://cur.lv/xjxd',
+
+        'http://cur.lv/xjx4',
+
+        'http://cur.lv/xjwz',
+
+        'http://cur.lv/xjw1',
+
+        'http://cur.lv/xjup',
+
+        'http://cur.lv/xjtz',
+
+        'http://cur.lv/xjtt',
+
+        'http://cur.lv/xjtn',
+
+        'http://cur.lv/xjrh',
+
+        'http://cur.lv/xjrd',
+
+        'http://cur.lv/xjr3',
+
+        'http://cur.lv/xj1z',
+
+        'http://cur.lv/xizx',
+
+        'http://cur.lv/xizf',
+
+        'http://cur.lv/x3jx',
+
+        'http://cur.lv/x3jp'
+
+    )
+
+);
+
+$randomlink = array_rand($urls, 1);
+
+$thelink = $randomlink[0];
+
+echo '<a target="_blank" href="' . $thelink . '">Random Faucet</a>'
+
+?>
